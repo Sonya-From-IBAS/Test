@@ -18,3 +18,4 @@ headers = {
 url = f'https://www.gismeteo.ru/diary/4618/2022/8/'
 response = requests.get(url, headers=headers)
 print(response.status_code)
+print('hi')
